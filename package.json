@@ -12,5 +12,9 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wejs/we-plugin-bootstrap3.git"
+  }
 }
