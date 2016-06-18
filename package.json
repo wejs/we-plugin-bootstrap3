@@ -1,20 +1,20 @@
 {
   "name": "we-plugin-bootstrap3",
-  "description": "We.js we-plugin-bootstrap3 plugin",
-  "version": "0.3.2",
+  "description": "Plugin to add bootstrap3 assets files in we.js project",
+  "version": "1.0.0",
   "main": "plugin.js",
   "scripts": {
-    "test": "NODE_ENV=test LOG_LV=info ./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js",
-    "prepublish": "npm prune"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "test": "NODE_ENV=test LOG_LV=info ./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wejs/we-plugin-bootstrap3.git"
+  "author": "Alberto Souza <contato@albertosouza.net>",
+  "repository": "wejs/we-plugin-bootstrap3",
+  "keywords": [
+    "wejs-plugin"
+  ],
+  "wejs": {
+    "dependencies": {
+      "we-plugin-view": true
+    }
   }
 }

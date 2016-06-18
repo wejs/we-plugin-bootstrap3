@@ -1,10 +1,17 @@
-# we-plugin-bootstrap3
+# We.js bootstrap3 plugin
 
-> We.js twitter bootstrap plugin for add twitter bootstrap css and .js files
+Add twitter bootstrap3 assets in one we.js project with we-plugin-view
+
+## Installation
+
+```sh
+we i we-plugin-bootstrap3
+```
 
 ## Links
 
 > * We.js site: http://wejs.org
 
 ## License
+
 MIT
